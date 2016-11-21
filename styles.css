@@ -11765,6 +11765,7 @@ eco-footer {
 }
 .civil-engineering_picture-container {
   background: url("img/atlas.jpg");
+  background-position: center -50px !important;
 }
 .advantages_title {
   margin-top: 0;
@@ -11806,6 +11807,9 @@ eco-footer {
 }
 .contacts a:active {
   text-decoration: none;
+}
+.contacts h3 {
+  text-align: center;
 }
 .footer-basic-centered {
   padding: 20px;
