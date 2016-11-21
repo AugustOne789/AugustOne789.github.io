@@ -1,11 +1,11 @@
-@import "node_modules/normalize.css/normalize.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css";
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import "node_modules/bootstrap-material-design/dist/css/ripples.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.9/css/ripples.min.css";
 @import "footer.css";
 html {
   font-family: sans-serif;
