@@ -11765,9 +11765,9 @@ eco-footer {
 }
 .civil-engineering_picture-container {
   background: url("img/atlas.jpg");
-  background-position: -650px center !important;
+  background-position: right center !important ;
 }
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .civil-engineering_picture-container {
     background-position: center -50px !important;
   }
@@ -11821,7 +11821,10 @@ eco-footer {
   margin-top: 0;
 }
 .footer-basic-centered .footer-links {
-  padding: 15px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer-basic-centered .footer-links a {
   color: #ffee58;
@@ -11830,6 +11833,19 @@ eco-footer {
   eco-footer {
     margin-bottom: 55px;
   }
+}
+.footer-basic-centered .footer-links span {
+  margin-left: auto;
+  margin-right: auto;
+  color: #f1f1f1;
+}
+.footer-basic-centered .footer-links p {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-basic-centered .footer-links img {
+  margin-left: auto;
+  margin-right: auto;
 }
 #callbacky-phone-widget-window {
   z-index: 100 !important;
