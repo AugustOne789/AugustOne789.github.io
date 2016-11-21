@@ -11765,7 +11765,12 @@ eco-footer {
 }
 .civil-engineering_picture-container {
   background: url("img/atlas.jpg");
-  background-position: center -50px !important;
+  background-position: -650px center !important;
+}
+@media (min-width: 600px) {
+  .civil-engineering_picture-container {
+    background-position: center -50px !important;
+  }
 }
 .advantages_title {
   margin-top: 0;

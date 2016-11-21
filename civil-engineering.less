@@ -3,7 +3,11 @@
     
     &_picture-container {
         &:extend(.picture-container all);
-        background: url("img/atlas.jpg");
-        background-position: center -50px !important;
+        background: url("img/atlas.jpg");        
+        background-position: -650px center !important ;
+
+        @media (min-width: 600px){
+            background-position: center -50px !important;
+        }
     }
 }
