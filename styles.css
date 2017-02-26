@@ -11784,6 +11784,12 @@ eco-footer {
   font-family: Roboto;
   font-weight: 400;
 }
+.advantages__img-container {
+  text-align: center;
+}
+.advantages__img {
+  height: 64px;
+}
 .customers_title {
   margin-top: 0;
   margin-bottom: 20px;
