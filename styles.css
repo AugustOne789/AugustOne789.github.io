@@ -11883,6 +11883,9 @@ eco-footer {
 .footer-basic-centered .footer-links a {
   color: #ffee58;
 }
+.footer-img {
+  width: 110px;
+}
 @media (max-width: 770px) {
   eco-footer {
     margin-bottom: 55px;
