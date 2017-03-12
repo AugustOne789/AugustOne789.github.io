@@ -11801,9 +11801,23 @@ eco-footer {
   flex: 1 0 250px;
   min-width: 0;
 }
+.project.video {
+  display: flex;
+}
 .project-img {
   width: 100%;
   height: 100%;
+}
+.lb-image {
+  max-width: 1150px !important;
+  max-height: 780px !important;
+}
+.smi-info {
+  display: flex;
+  justify-content: center;
+}
+.smi-img {
+  width: 300px;
 }
 .customers_title {
   margin-top: 0;
